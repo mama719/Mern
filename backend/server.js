@@ -8,7 +8,7 @@ const app = express()
 
 app.use(express.json())
 
-app.use(CORS({useCredentials : false , origin : "http://localhost:5173"}))
+app.use(CORS({useCredentials : false , origin : "https://caring-humor.surge.sh/"}))
 
 app.get("/api/getdata" , async (req , res) => { 
     try{
